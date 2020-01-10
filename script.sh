@@ -9,4 +9,4 @@ cat template.cc | perl -p -e 's/INCLUDE/$ENV{INCLUDE}/g' | perl -p -e 's/CODE/$E
 #cat template.cc  | sed "s/CODE/$(echo "'" $code "'")/" > $path.cc
 g++ $path.cc -std=c++11 -isystem benchmark/include -Lbenchmark/build/src -lbenchmark -lpthread -o $path
 
-$($path)
+$path
