@@ -1,0 +1,3 @@
+#include <cmath>
+--
+std::pow(15, 10000);
