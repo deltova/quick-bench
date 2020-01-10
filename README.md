@@ -13,3 +13,6 @@ The input file needs to be formated like this:
 <code statements>
 ```
 Check [example-input](example-input) file to see an example 
+
+## Dependencies
+Google Benchmark
